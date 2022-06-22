@@ -8,7 +8,7 @@
 .Hero > .section > div {
   width: 100%;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 0.5fr 0.5fr;
   align-items: center;
   gap: 2rem;
 }
@@ -44,9 +44,6 @@
   height: 100vh;
 }
 @media (max-width: 768px) {
-  .Hero > .section > div {
-    /* grid-template-columns: 1fr; */
-  }
   .Hero > .section > div > .img > img {
     width: 35vw;
     height: auto;
