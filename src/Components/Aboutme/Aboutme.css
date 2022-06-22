@@ -1,0 +1,37 @@
+.Aboutme > .section > div {
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 4rem;
+}
+.Aboutme > .section > div > .img {
+  text-align: center;
+}
+.Aboutme > .section > div > .img > img {
+  height: 100vh;
+}
+.Aboutme > .section > div > .text > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #707070;
+}
+.Aboutme > .section > div > .text > span {
+  font-weight: 400;
+  font-size: 18px;
+
+  color: #18191f;
+}
+.Aboutme > .section > div > .text > div {
+  margin-top: 5rem;
+}
+.Aboutme > .section > div > .text > div > a {
+  padding: 1rem 1.5rem;
+  border-radius: 5rem;
+  background: linear-gradient(#fba24f, #ff1e1e);
+  box-shadow: 0px 2px 30px 0px #fc8f4980;
+  color: #ffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
