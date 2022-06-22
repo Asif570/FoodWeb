@@ -43,3 +43,21 @@
 .Hero > .section > div > .img > img {
   height: 100vh;
 }
+@media (max-width: 768px) {
+  .Hero > .section > div {
+    /* grid-template-columns: 1fr; */
+  }
+  .Hero > .section > div > .img > img {
+    width: 35vw;
+    height: auto;
+  }
+  .Hero > .section > div > .text > h1 {
+    font-size: 35px;
+  }
+  .Hero > .section > div > .text > h1 > span {
+    font-size: 35px;
+  }
+  .Hero > .section > div > .text > span {
+    font-size: 18px;
+  }
+}
