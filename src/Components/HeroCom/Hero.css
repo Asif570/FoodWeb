@@ -41,7 +41,8 @@
   font-weight: 500;
 }
 .Hero > .section > div > .img > img {
-  height: 100vh;
+  height: auto;
+  width: 100%;
 }
 @media (max-width: 768px) {
   .Hero > .section > div > .img > img {
