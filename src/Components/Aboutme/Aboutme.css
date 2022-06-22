@@ -45,3 +45,11 @@
     text-align: center;
   }
 }
+@media (max-width: 500px) {
+  .Aboutme > .section > div > .img > img {
+    height: 330px;
+  }
+  .Aboutme {
+    background-position: center;
+  }
+}
