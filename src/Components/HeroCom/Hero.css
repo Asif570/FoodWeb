@@ -67,9 +67,17 @@
 @media (max-width: 500px) {
   .Hero > .section > div {
     position: relative;
-    /* grid-template-columns: 1fr; */
   }
+  .Hero > .section > div > .text > h1 {
+    color: rgb(0 0 0);
+}
+  
+  .Hero > .section > div > .text > span {
+    color: rgb(0 0 0);
+}
   .Hero > .section > div > .img > img {
+ 
+    
     position: absolute;
     top: 0;
     right: 0;
